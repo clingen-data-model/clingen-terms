@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/geno.owl" uri="file:/Users/tristan/code/GENO-ontology/src/ontology/geno.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sepio-clingen.owl" uri="file:/Users/tristan/code/SEPIO-ontology/src/ontology/extensions/clingen/sepio-clingen.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sepio.owl" uri="file:/Users/tristan/code/SEPIO-ontology/src/ontology/sepio.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1543674862987" name="http://dataexchange.clinicalgenome.org/terms" uri="cg-terms.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1543674862987" name="http://www.ifomis.org/bfo/1.1" uri="bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1544140699440" name="http://dataexchange.clinicalgenome.org/terms" uri="clingen-terms.owl"/>
     </group>
 </catalog>
