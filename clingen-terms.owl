@@ -33,7 +33,7 @@
     <!-- http://dataexchange.clinicalgenome.org/terms/CG_0007 -->
 
     <owl:DatatypeProperty rdf:about="http://dataexchange.clinicalgenome.org/terms/CG_0007">
-        <obo:IAO_0000115>The absolute count of the number of the associated feature existant in an individual genotype.</obo:IAO_0000115>
+        <obo:IAO_0000115>The absolute count of the number of the associated feature existent in an individual genotype.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">feature count</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -54,7 +54,7 @@
 
     <owl:Class rdf:about="http://dataexchange.clinicalgenome.org/terms/CG_0000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SEPIO_0000000"/>
-        <rdfs:label xml:lang="en">geen dosage pathogenicity proposition</rdfs:label>
+        <rdfs:label xml:lang="en">gene dosage pathogenicity proposition</rdfs:label>
     </owl:Class>
     
 
