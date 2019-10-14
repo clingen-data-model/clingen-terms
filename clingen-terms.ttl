@@ -11,27 +11,26 @@
 @prefix protege: <http://protege.stanford.edu/plugins/owl/protege#> .
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix cg: <http://dataexchange.clinicalgenome.org/terms/> .
 
 <http://dataexchange.clinicalgenome.org/terms>
-    a owl:Ontology ;
-    owl:imports <http://purl.obolibrary.org/obo/geno.owl>, <http://purl.obolibrary.org/obo/sepio-clingen.owl> .
+    a owl:Ontology .
 
-<http://dataexchange.clinicalgenome.org/terms/feature_count>
-    a owl:DatatypeProperty ;
-    rdfs:label "feature_count"@en .
-    obo:IAO_0000115 "The absolute count of the number of the associated feature existant in an individual genotype." ;
+# <http://dataexchange.clinicalgenome.org/terms/feature_count>
+#     a owl:DatatypeProperty ;
+#     rdfs:label "feature_count"@en .
+#     obo:IAO_0000115 "The absolute count of the number of the associated feature existant in an individual genotype." ;
 
-<http://dataexchange.clinicalgenome.org/terms/functional_genetic_dosage>
+cg:DomainModel
     a owl:Class ;
-    rdfs:subClassOf obo:IAO_0000030 ;
-    rdfs:label "Functional Genetic Dosage"@en ;
-    obo:IAO_0000115 "The effective genetic dosage of a given region or feature." .
-
-<http://dataexchange.clinicalgenome.org/terms/contradictory_evidence>
-    a skos:Concept ;
-    skos:inScheme <http://purl.obolibrary.org/obo/SEPIO_0002005> ;
-    rdfs:label "contradictory evidence"@en ;
-    obo:IAO_0000115 "Evidence contradicting the associated proposition." .
+    rdfs:label "domain model" ;
+    obo:IAO_0000115 "A model for representing the classes, entities, and relationships within a given domain, the ClinGen Variant Pathogenicity Model, for example." .
+    
+cg:is_in_model
+    a owl:ObjectProperty ;
+    rdfs:label "is in model"@en ;
+    obo:IAO_0000115 "Shape or value set that is a component of a domain model." .
+    
 
 
 
