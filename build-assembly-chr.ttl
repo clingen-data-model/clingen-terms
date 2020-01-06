@@ -1,0 +1,199 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix data: <http://edamontology.org/> .
+@prefix so: <http://purl.obolibrary.org/obo/> .
+@prefix ncbi_nu: <https://www.ncbi.nlm.nih.gov/nuccore/> .
+
+# so:SO_0000340 :so/chromosome
+# data:data_2340 :data/genome-build-identifier
+
+ncbi_nu:NC_000001.10 
+	so:SO_0000340 "chr1";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000002.11 
+	so:SO_0000340 "chr2";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000003.11 
+	so:SO_0000340 "chr3";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000004.11 
+	so:SO_0000340 "chr4";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000005.9 
+	so:SO_0000340 "chr5";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000006.11 
+	so:SO_0000340 "chr6";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000007.13 
+	so:SO_0000340 "chr7";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000008.10 
+	so:SO_0000340 "chr8";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000009.11 
+	so:SO_0000340 "chr9";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000010.10 
+	so:SO_0000340 "chr10";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000011.9 
+	so:SO_0000340 "chr11";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000012.11 
+	so:SO_0000340 "chr12";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000013.10 
+	so:SO_0000340 "chr13";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000014.8 
+	so:SO_0000340 "chr14";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000015.9 
+	so:SO_0000340 "chr15";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000016.9 
+	so:SO_0000340 "chr16";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000017.10 
+	so:SO_0000340 "chr17";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000018.9 
+	so:SO_0000340 "chr18";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000019.9 
+	so:SO_0000340 "chr19";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000020.10 
+	so:SO_0000340 "chr20";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000021.8 
+	so:SO_0000340 "chr21";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000022.10 
+	so:SO_0000340 "chr22";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000023.10 
+	so:SO_0000340 "chrX";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000024.9 
+	so:SO_0000340 "chrY";
+	data:data_2340 "GRCh37" .
+
+ncbi_nu:NC_000001.11 
+	so:SO_0000340 "chr1";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000002.12 
+	so:SO_0000340 "chr2";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000003.12 
+	so:SO_0000340 "chr3";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000004.12 
+	so:SO_0000340 "chr4";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000005.10 
+	so:SO_0000340 "chr5";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000006.12 
+	so:SO_0000340 "chr6";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000007.14 
+	so:SO_0000340 "chr7";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000008.11 
+	so:SO_0000340 "chr8";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000009.12 
+	so:SO_0000340 "chr9";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000010.11 
+	so:SO_0000340 "chr10";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000011.10 
+	so:SO_0000340 "chr11";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000012.12 
+	so:SO_0000340 "chr12";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000013.11 
+	so:SO_0000340 "chr13";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000014.9 
+	so:SO_0000340 "chr14";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000015.10 
+	so:SO_0000340 "chr15";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000016.10 
+	so:SO_0000340 "chr16";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000017.11 
+	so:SO_0000340 "chr17";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000018.10 
+	so:SO_0000340 "chr18";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000019.10 
+	so:SO_0000340 "chr19";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000020.11 
+	so:SO_0000340 "chr20";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000021.9 
+	so:SO_0000340 "chr21";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000022.11 
+	so:SO_0000340 "chr22";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000023.11 
+	so:SO_0000340 "chrX";
+	data:data_2340 "GRCh38" .
+
+ncbi_nu:NC_000024.10 
+	so:SO_0000340 "chrY";
+	data:data_2340 "GRCh38" .
