@@ -30,6 +30,15 @@ cg:is_in_model
     a owl:ObjectProperty ;
     rdfs:label "is in model"@en ;
     obo:IAO_0000115 "Shape or value set that is a component of a domain model." .
+
+cg:HaploinsufficiencyIndex
+    a obo:BFO_0000141 ; # immaterial entity
+    rdfs:label "haploinsufficiency index"@en ;
+    obo:IAO_0000115 "Predicted probability of exibiting haploinsufficency. (Decipher)" @en .
+    
+
+
+
     
 
 
