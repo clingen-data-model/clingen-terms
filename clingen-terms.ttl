@@ -16,11 +16,6 @@
 <http://dataexchange.clinicalgenome.org/terms>
     a owl:Ontology .
 
-# <http://dataexchange.clinicalgenome.org/terms/feature_count>
-#     a owl:DatatypeProperty ;
-#     rdfs:label "feature_count"@en .
-#     obo:IAO_0000115 "The absolute count of the number of the associated feature existant in an individual genotype." ;
-
 cg:DomainModel
     a owl:Class ;
     rdfs:label "domain model" ;
@@ -35,7 +30,7 @@ cg:HaploinsufficiencyIndex
     a obo:BFO_0000141 ; # immaterial entity
     rdfs:label "haploinsufficiency index"@en ;
     obo:IAO_0000115 "Predicted probability of exibiting haploinsufficency. (Decipher)" @en .
-    
+
 
 
 
