@@ -12,6 +12,7 @@
 @prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix cg: <http://dataexchange.clinicalgenome.org/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 
 <http://dataexchange.clinicalgenome.org/terms>
     a owl:Ontology .
@@ -29,9 +30,19 @@ cg:is_in_model
 cg:HaploinsufficiencyIndex
     a obo:BFO_0000141 ; # immaterial entity
     rdfs:label "haploinsufficiency index"@en ;
-    obo:IAO_0000115 "Predicted probability of exibiting haploinsufficency. (Decipher)" @en
+    obo:IAO_0000115 "Predicted probability of exibiting haploinsufficency. (Decipher)" @en .
+    
 
 cg:ActionabilityGeneticCondition
     a owl:Class ;
     rdfs:label "actionability genetic condition" ;
-    obo:IAO_0000115 "An genetic condition linked to a gene-disease pair within a ClinGen Actionability curation. Typically a blank node within that curation; used when the term being curated against is not already a genetic condition associated with that gene-disease pair (i.e. an appropriate OMIM term)" 
+    obo:IAO_0000115 "An genetic condition linked to a gene-disease pair within a ClinGen Actionability curation. Typically a blank node within that curation; used when the term being curated against is not already a genetic condition associated with that gene-disease pair (i.e. an appropriate OMIM term)" .
+    
+
+
+cg:Affiliation 
+    a owl:Class ;
+    rdfs:subClassOf prov:Agent ;
+    rdfs:label "affiliation" ;
+    obo:IAO_0000115 "An affiliation group organized by ClinGen for the expert curation of genes, variants, and clinical actionability."
+    
