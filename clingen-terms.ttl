@@ -27,11 +27,16 @@ cg:is_in_model
     rdfs:label "is in model"@en ;
     obo:IAO_0000115 "Shape or value set that is a component of a domain model." .
 
-cg:HaploinsufficiencyIndex
+cg:HaploinsufficiencyScore
     a obo:BFO_0000141 ; # immaterial entity
-    rdfs:label "haploinsufficiency index"@en ;
-    obo:IAO_0000115 "Predicted probability of exibiting haploinsufficency. (Decipher)" @en .
+    rdfs:label "haploinsufficiency score"@en ;
+    obo:IAO_0000115 "Predicted probability that a single functional copy of a gene is insufficient to maintain normal fuction. (Decipher)" @en .
     
+cg:TriplosensitivityScore
+    a obo:BFO_0000141 ; # immaterial entity
+    rdfs:label "triplosensitivity score"@en ;
+    obo:IAO_0000115 "Predicted probability that a gene is intolerant to a loss of function mutation. (ExAC)" @en .
+
 cg:ActionabilityGeneticCondition
     a owl:Class ;
     rdfs:label "actionability genetic condition" ;
