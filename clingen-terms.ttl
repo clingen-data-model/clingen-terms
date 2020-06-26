@@ -32,14 +32,11 @@ cg:HaploinsufficiencyIndex
     rdfs:label "haploinsufficiency index"@en ;
     obo:IAO_0000115 "Predicted probability of exibiting haploinsufficency. (Decipher)" @en .
     
-
 cg:ActionabilityGeneticCondition
     a owl:Class ;
     rdfs:label "actionability genetic condition" ;
     obo:IAO_0000115 "An genetic condition linked to a gene-disease pair within a ClinGen Actionability curation. Typically a blank node within that curation; used when the term being curated against is not already a genetic condition associated with that gene-disease pair (i.e. an appropriate OMIM term)" .
     
-
-
 cg:Affiliation 
     a owl:Class ;
     rdfs:subClassOf prov:Agent ;
