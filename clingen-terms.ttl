@@ -46,5 +46,22 @@ cg:Affiliation
     a owl:Class ;
     rdfs:subClassOf prov:Agent ;
     rdfs:label "affiliation" ;
-    obo:IAO_0000115 "An affiliation group organized by ClinGen for the expert curation of genes, variants, and clinical actionability."
+    obo:IAO_0000115 "An affiliation group organized by ClinGen for the expert curation of genes, variants, and clinical actionability." .
+    
+cg:AdultActionabilityWorkingGroup
+    a cg:Affiliation ;
+    rdfs:label "Adult Actionability Working Group" .
+
+cg:PediatricActionabilityWorkingGroup
+    a cg:Affiliation ;
+    rdfs:label "Pediatric Actionability Working Group" .
+    
+    
+cg:has_total_actionability_score
+    a owl:DataProperty ;
+    rdfs:label "Total Actionability Score" .
+
+cg:has_total_actionability_outcome_intervention_pairs
+    a owl:DataProperty ;
+    rdfs:label "Total Actionability Outcome Intervention Pairs" .
     
