@@ -14,7 +14,7 @@
 @prefix cg: <http://dataexchange.clinicalgenome.org/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix hp: <http://purl.obolibrary.org/obo/HP_> .
-
+@prefix sepio: <http://purl.obolibrary.org/obo/SEPIO_> .
 
 <http://dataexchange.clinicalgenome.org/terms>
     a owl:Ontology .
@@ -80,3 +80,5 @@ cg:website_display_label
 
 hp:0000005 cg:website_display_label "Undetermined" .
 
+# Temporary workaround to provide sorting by gene validity evidence level
+sepio:0000404 sepio:0002506 2 .
